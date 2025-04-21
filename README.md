@@ -241,7 +241,7 @@ flowchart LR
 
     All charts were created using Altair for clean, responsive visuals.
 
-    ![visualization](Media\visualization.png)
+    ![visualization](Media/visualization.png)
 
 ## Outcome, Business Impact & Use Cases
 
@@ -290,3 +290,5 @@ flowchart LR
 This project demonstrates how data engineering isn’t just about pipelines—it’s about delivering insight. With Snowflake's ecosystem and a business-first mindset, external data like weather can become a competitive edge.
 
 > "Bad weather doesn't have to mean bad business—if you're prepared."
+
+bullet point- Engineered a Snowflake-based data pipeline to analyze zero-sales anomalies in Hamburg by integrating ~1M rows of POS data with external weather datasets, identifying high wind speeds as the root cause via SQL-driven transformations, UDFs, and a Streamlit dashboard.
